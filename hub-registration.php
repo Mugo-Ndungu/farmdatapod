@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-include "head.php";
+include "templates/head.php";
 ?>
 
 <body>
@@ -11,13 +11,13 @@ include "head.php";
     <div class="main-wrapper">
         <!-- Header -->
         <?php
-        include "topnav.php";
+        include "templates/topnav.php";
         ?>
         <!-- /Header -->
 
         <!-- Sidebar -->
         <?php
-        include "side-menu.php";
+        include "templates/side-menu.php";
         ?>
         <!-- /Sidebar -->
 
@@ -316,7 +316,7 @@ include "head.php";
         }
     </script>
     <?php
-    include "script.php";
+    include "templates/script.php";
     ?>
 </body>
 
