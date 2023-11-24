@@ -938,12 +938,12 @@
 		 
 	});
 
-	document.oncontextmenu = function() {return false;};
-		$(document).mousedown(function(e){ 
-		if( e.button == 2 ) { 
-			return false; 
-		} 
-		return true; 
-	});
+	// document.oncontextmenu = function() {return false;};
+	// 	$(document).mousedown(function(e){ 
+	// 	if( e.button == 2 ) { 
+	// 		return false; 
+	// 	} 
+	// 	return true; 
+	// });
 
 })(jQuery);

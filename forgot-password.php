@@ -30,7 +30,7 @@
 
 <body>
     <!-- Main Wrapper -->
-    <div class="main-wrapper" style="width: 100%; height: 100vh; background-image: url('assets/img/pexels-feyza-tuğba-14650538.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="main-wrapper" style="width: 100%; height: 100vh; background-image: url('assets/img/pexels-david-bartus-2873479.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="account-page">
             <div class="container">
                 <h3 class="account-title" style="color: #fff;">Forgot Password</h3>
@@ -48,7 +48,7 @@
                                 <button class="btn btn-primary btn-block account-btn" onclick="submit()">Reset Password</button>
                             </div>
                             <div class="text-center">
-                                <a href="sign-in">Back to Login</a>
+                                <a href="index">Back to Login</a>
                             </div>
                         </form>
                     </div>

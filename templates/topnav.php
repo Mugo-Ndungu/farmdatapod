@@ -5,7 +5,7 @@
             <img src="assets/img/logo3.png" width="200px" alt="Logo">
         </a>
         <a href="dashboard" class="logo logo-small">
-            <img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+            <img src="assets/img/small-logo (1).png" alt="Logo" width="30" height="30">
         </a>
     </div>
     <!-- /Logo -->

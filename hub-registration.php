@@ -52,9 +52,9 @@ include "templates/head.php";
                                         </div>
                                         <div class="form-group">
                                             <label class="focus-label">Year Established</label>
-                                            <div class="input-group date" id="yearestablishedpicker" data-target-input="nearest">
-                                                <input type="text" class="form-control datetimepicker-input" data-target="#yearestablishedpicker" />
-                                                <div class="input-group-append" data-target="#yearestablishedpicker" data-toggle="datetimepicker">
+                                            <div class="input-group date" id="datetimepicker2" data-target-input="nearest">
+                                                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker2" />
+                                                <div class="input-group-append" data-target="#datetimepicker2" data-toggle="datetimepicker">
                                                     <div class="input-group-text"><i class="fas fa-calendar-alt"></i></div>
                                                 </div>
                                             </div>
@@ -257,9 +257,9 @@ include "templates/head.php";
                                         </div>
                                         <div class="form-group">
                                             <label class="focus-label">Date of Birth</label>
-                                            <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
-                                                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker1" />
-                                                <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
+                                            <div class="input-group date" id="datetimepicker0" data-target-input="nearest">
+                                                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker0" />
+                                                <div class="input-group-append" data-target="#datetimepicker0" data-toggle="datetimepicker">
                                                     <div class="input-group-text"><i class="fas fa-calendar-alt"></i></div>
                                                 </div>
                                             </div>
@@ -279,9 +279,10 @@ include "templates/head.php";
     </div>
     <!-- /Main Wrapper -->
 
+    <?php
+    include "templates/script.php";
+    ?>
     <script>
-        javascript: void(document.oncontextmenu = null);
-
         function toggleCheckboxDiv(show) {
             // Get the checkbox div element
             var checkboxDiv = document.getElementById("checkboxDiv");
@@ -303,7 +304,7 @@ include "templates/head.php";
                         document.getElementById("locationInput").value = `${latitude}, ${longitude}`;
 
                         // Display the coordinates
-                        document.getElementById("output").innerHTML = `Latitude: ${latitude} || Longitude: ${longitude}`;
+                        document.getElementById("output").innerHTML = `[Latitude: ${latitude}] & [Longitude: ${longitude}]`;
                     },
                     // Error callback
                     function(error) {
@@ -314,10 +315,10 @@ include "templates/head.php";
                 alert('Geolocation is not supported by your browser.');
             }
         }
+        $(document).ready(function() {
+            $("#datetimepicker0").datetimepicker();
+        });
     </script>
-    <?php
-    include "templates/script.php";
-    ?>
 </body>
 
 </html>
