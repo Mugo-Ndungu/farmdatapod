@@ -11,6 +11,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css">
 
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
@@ -33,5 +34,6 @@
 
     <!-- jQuery -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
+
 
 </head>

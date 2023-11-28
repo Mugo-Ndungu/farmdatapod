@@ -1,5 +1,10 @@
+
     <!-- Bootstrap Core JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Datatable JS -->
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap4.min.js"></script>
 
     <!-- Slimscroll JS -->
     <script src="assets/js/jquery.slimscroll.js"></script>
