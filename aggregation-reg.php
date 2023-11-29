@@ -334,7 +334,7 @@ include "templates/head.php";
                                             <h4 class="card-title">CIG Registration Information</h4>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <div class="form-group">
+                                                    <!-- <div class="form-group">
                                                         <label>Region</label>
                                                         <select class="select">
                                                             <option>Select</option>
@@ -386,21 +386,55 @@ include "templates/head.php";
                                                             <option value="wajir">Wajir</option>
                                                             <option value="pokot">West Pokot</option>
                                                         </select>
-                                                    </div>
+                                                    </div> -->
                                                     <div class="form-group">
-                                                        <label>CIG Name</label>
+                                                        <label>CIG Name <span class="text-danger">*</span></label>
                                                         <input type="text" class="form-control">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label>Address</label>
-                                                        <input type="text" class="form-control">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="focus-label">Year Established</label>
+                                                        <label class="focus-label">Date Established <span class="text-danger">*</span></label>
                                                         <div class="input-group date" id="datetimepicker2" data-target-input="nearest">
                                                             <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker2" />
                                                             <div class="input-group-append" data-target="#datetimepicker2" data-toggle="datetimepicker">
                                                                 <div class="input-group-text"><i class="fas fa-calendar-alt"></i></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>No. of Members <span class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="display-block">Constitution: <span class="text-danger">*</span></label>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="gender" id="constitutionyes" value="Yes">
+                                                                    <label class="form-check-label" for="constitutionyes">Yes</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="gender" id="constitutionno" value="No">
+                                                                    <label class="form-check-label" for="constitutionno">No</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="display-block">Registration: <span class="text-danger">*</span></label>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="gender" id="registrationyes" value="Yes">
+                                                                    <label class="form-check-label" for="registrationyes">Yes</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="gender" id="registrationno" value="No">
+                                                                    <label class="form-check-label" for="registrationno">No</label>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>

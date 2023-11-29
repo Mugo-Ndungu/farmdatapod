@@ -14,7 +14,7 @@
                         </li>
                         <li id="parentli">
 
-                            <a href="hub-view.php"><i class="fa fa-eye-slash" aria-hidden="true"></i> <span class="side-txt"> View Hubs</span></a>
+                            <a href="hub-view"><i class="fa fa-eye-slash" aria-hidden="true"></i> <span class="side-txt"> View Hubs</span></a>
                         </li>
                     </ul>
                 </li>
